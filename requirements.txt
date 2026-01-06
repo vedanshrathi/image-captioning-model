@@ -1,0 +1,7 @@
+tensorflow
+numpy
+pillow
+nltk
+flask
+tqdm
+matplotlib
