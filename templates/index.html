@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Caption Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 
+<div class="container">
+    <h1>🖼️ Image Caption Generator</h1>
+    <p>Upload an image to generate an AI-based caption</p>
+
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <button type="submit">Generate Caption</button>
+    </form>
+
+    <div class="preview">
+        <img id="preview-img" hidden>
+    </div>
+
+    <div class="result">
+        <h3>Generated Caption:</h3>
+        <p id="caption-text">---</p>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
