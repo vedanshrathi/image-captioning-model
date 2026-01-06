@@ -65,11 +65,9 @@ image_captioning/
 
 ## 🧪 Dataset Used
 
-Recommended datasets:
-- **MS COCO (Best accuracy)**
-- Flickr30k
-- Flickr8k (for learning/demo)
 
+- Flickr8k (for learning/demo)
+ Download Dataset here: https://drive.google.com/drive/folders/1pwMqRaacFmLEKoUARuQRsQbQ8W_qdoA-
 Each image has multiple captions to improve learning quality.
 
 ---
